@@ -1,0 +1,13 @@
+interface:
+  display_name: AI导演：脚本到分镜与资产
+  short_description: 把脚本转成有节奏的导演分镜、纯线稿故事板和独立资产，经审核后生成图片与视频提示词
+  default_prompt: 使用 $direct-ai-film，根据我的脚本先制作导演方案、分镜、资产清单和完整提示词，审核通过后生成故事板与资产图片。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
